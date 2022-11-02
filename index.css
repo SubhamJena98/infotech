@@ -1,0 +1,165 @@
+/* header */
+
+.header1 {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    padding: 0 3.5rem;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header2 {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    list-style-type: none;
+    padding: 0 3.5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_list {
+    list-style-type: none;
+    display: flex;
+    gap: 2.5rem;
+}
+
+/* Banner */
+
+.banner{
+    margin-top: 50px;
+    display: flex;
+}
+.heading_top{
+    color: white;
+    position: absolute;
+    top: 70%;
+    margin-left: 150px;
+    font-weight: bolder;
+}
+.heading_top_2{
+    position: absolute;
+    top: 77%;
+    margin-left: 150px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.container_grid{
+    display: flex;
+    margin-top: 50px;
+    padding: 100px;
+}
+
+
+
+.who_we_are{
+    margin-left: 50px;
+    max-width: 50%;
+}
+
+/* services */
+.services{
+    margin-top: 150px;
+    background-color: rgb(247, 241, 241);
+}
+
+.services_offer{
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.col_hover:hover{
+    transform: translateY(-1rem);
+}
+
+.details{
+    color: rgb(124, 116, 116);
+}
+
+.services_offer a{
+    text-decoration: none;
+    color: black;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+}
+
+/* Testimonials */
+.what_our_client{
+    margin-left: 30px;
+}
+
+.subPoints{
+    color: black;
+    font-weight: bolder;
+}
+
+/* Latest from blog */
+.latest_blog{
+    margin-top: 50px;
+}
+
+.latest_blog_grid{
+    margin-left: 10px;
+    margin-top: 50px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.latest_blog_grid p{
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+}
+
+.latest_blog_grid p:hover{
+    color: red;
+}
+
+.latest_blog_grid button{
+    margin-top: 30px;
+}
+
+.latest_blog_grid a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Last part */
+.last_part{
+    background-image: url("https://www.kindpng.com/picc/m/195-1950051_custom-application-development-banner-hd-png-download.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  position: relative;
+  background-attachment: fixed;
+  height: 400px;
+  opacity: 1;
+  margin-top: 100px;
+}
+
+.last_part_1{
+    display: flex;
+    max-width: 100%;
+}
+
+.last_part_2{
+    color:black;
+    margin-left: 150px;
+    margin-top: 150px;
+    font-weight: bolder;
+}
+
+
+.contact{
+    margin-top: 150px;
+    margin-left: 30%;
+}

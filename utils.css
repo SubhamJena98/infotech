@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+h6{
+    color: gray;
+}
+h1{
+    color: black;
+}
+
+button{
+    color: red;
+    border-color: red;
+    padding: 19px 30px 17px;
+    line-height: 15px;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+
+h4{
+    color: orange;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: -15px;
+}
